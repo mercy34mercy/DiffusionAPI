@@ -1,15 +1,12 @@
-from calendar import prmonth
-import io
 import os
 import warnings
-from PIL import Image
 from blob import blob
 
 from dotenv import load_dotenv
 from store import gqlclient
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
-from flask import Flask, request, send_file
+from flask import Flask, request
 import requests
 
 
