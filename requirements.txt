@@ -39,7 +39,6 @@ six==1.16.0
 stability-sdk==0.1.1
 typing_extensions==4.3.0
 urllib3==1.26.12
-uuid==1.30
 websockets==10.3
 Werkzeug==2.2.2
 yarl==1.8.1
