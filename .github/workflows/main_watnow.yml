@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'watnow'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_46DC3792A68B4D628C0A53620973C1AA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C877643823AF4EB1AB52DE0296A3E9FE }}
