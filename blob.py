@@ -1,8 +1,5 @@
 import os
 import uuid
-
-
-
 # Import the client object from the SDK library
 from azure.storage.blob import BlobClient
 
