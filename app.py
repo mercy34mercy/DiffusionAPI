@@ -1,9 +1,12 @@
+from calendar import prmonth
 import io
 import os
 import warnings
 from PIL import Image
+from blob import blob
 
 from dotenv import load_dotenv
+from store import gqlclient
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 from flask import Flask, request, send_file
@@ -23,6 +26,7 @@ app = Flask(__name__)
 def generate():
     req = request.args
     propmt = req.get("prompt", "")
+    userid = req.get("userid")
 
     text = propmt
     source_lang = 'JA'
@@ -54,10 +58,13 @@ def generate():
                     "Your request activated the API's safety filters and could not be processed."
                     "Please modify the prompt and try again.")
             if artifact.type == generation.ARTIFACT_IMAGE:
-                return send_file(
-                    io.BytesIO(artifact.binary),
-                    mimetype='image/png'
-                )
+                url = blob(artifact.binary)
+                gqlclient(url,propmt,userid)
+                # return send_file(
+                #     io.BytesIO(artifact.binary),
+                #     mimetype='image/png'
+                # )
+                return url
 
 
 if __name__ == "__main__":
