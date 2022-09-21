@@ -3,6 +3,7 @@ import warnings
 from blob import blob
 import requests
 from dotenv import load_dotenv
+from emotion2 import emotion2
 from store import gqlclient
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
@@ -56,7 +57,8 @@ def generate():
                     "Please modify the prompt and try again.")
             if artifact.type == generation.ARTIFACT_IMAGE:
                 url = blob(artifact.binary)
-                gqlclient(url,propmt,userid)
+                diaryid =  gqlclient(url,propmt,userid)
+                emotion2(propmt,diaryid)
                 # return send_file(
                 #     io.BytesIO(artifact.binary),
                 #     mimetype='image/png'
