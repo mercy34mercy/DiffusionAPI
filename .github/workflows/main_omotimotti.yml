@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'omotimotti'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_451E537DA5EB4F0680DD956B5B9419AC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A30E2C5C35F84B8D8BA5E2256E496CC3 }}
