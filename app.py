@@ -58,7 +58,7 @@ def generate():
             if artifact.type == generation.ARTIFACT_IMAGE:
                 url = blob(artifact.binary)
                 diaryid =  gqlclient(url,propmt,userid)
-                emotion2(propmt,diaryid)
+                emotion2(result["translations"][0]["text"],diaryid)
                 # return send_file(
                 #     io.BytesIO(artifact.binary),
                 #     mimetype='image/png'
@@ -67,4 +67,4 @@ def generate():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=os.environ['PORT'])
+    app.run(host="0.0.0.0", port=5000)

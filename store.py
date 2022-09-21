@@ -14,7 +14,7 @@ def gqlclient(imageurl,word,userid):
     # a = "mutation createDiary{createDiary(input:{Userid:%s,Imageurl:%s,Word:%s}){Imageurl}}" % (userid,imageurl,word)
     # Execute the query on the transport
     result = client.execute(query)
-    print(result["createDiary"]["Diaryid"])
+    print("result",result)
     return result["createDiary"]["Diaryid"]
 
 def createemotion(diaryid,happy,angry,fear,surprise,sad):
