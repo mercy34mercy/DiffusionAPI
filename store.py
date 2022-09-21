@@ -6,8 +6,8 @@ from gql.transport.aiohttp import AIOHTTPTransport
 
 def gqlclient(imageurl,word,userid,englishword):
     # Select your transport with a defined url endpoint
-    # transport = AIOHTTPTransport(url="https://watnow-362606.et.r.appspot.com/query")
-    transport = AIOHTTPTransport(url="http://localhost:8080/query")
+    transport = AIOHTTPTransport(url="https://watnow-362606.et.r.appspot.com/query")
+    # transport = AIOHTTPTransport(url="http://localhost:8080/query")
     # Create a GraphQL client using the defined transport
     client = Client(transport=transport, fetch_schema_from_transport=True)
     # Provide a GraphQL query
@@ -22,8 +22,8 @@ def createemotion(diaryid,happy,angry,fear,surprise,sad):
     # Select your transport with a defined url endpoint
 
     # 
-    # transport = AIOHTTPTransport(url="https://watnow-362606.et.r.appspot.com/query")
-    transport = AIOHTTPTransport(url="http://localhost:8080/query")
+    transport = AIOHTTPTransport(url="https://watnow-362606.et.r.appspot.com/query")
+    # transport = AIOHTTPTransport(url="http://localhost:8080/query")
     # Create a GraphQL client using the defined transport
     client = Client(transport=transport, fetch_schema_from_transport=True)
     # Provide a GraphQL query
