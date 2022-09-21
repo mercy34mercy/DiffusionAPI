@@ -57,7 +57,7 @@ def generate():
                     "Please modify the prompt and try again.")
             if artifact.type == generation.ARTIFACT_IMAGE:
                 url = blob(artifact.binary)
-                diaryid =  gqlclient(url,propmt,userid)
+                diaryid =  gqlclient(url,propmt,userid,result["translations"][0]["text"])
                 emotion2(result["translations"][0]["text"],diaryid)
                 # return send_file(
                 #     io.BytesIO(artifact.binary),
