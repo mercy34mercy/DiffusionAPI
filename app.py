@@ -1,9 +1,9 @@
 import os
 import warnings
-from blob import blob
 import requests
 from dotenv import load_dotenv
 from emotion2 import emotion2
+from firestorage import firestorage
 from store import gqlclient
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
@@ -56,7 +56,7 @@ def generate():
                     "Your request activated the API's safety filters and could not be processed."
                     "Please modify the prompt and try again.")
             if artifact.type == generation.ARTIFACT_IMAGE:
-                url = blob(artifact.binary)
+                url = firestorage(artifact.binary)
                 diaryid =  gqlclient(url,propmt,userid,result["translations"][0]["text"])
                 emotion2(result["translations"][0]["text"],diaryid)
                 # return send_file(

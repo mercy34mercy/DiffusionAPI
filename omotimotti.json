@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "omotimotti",
+  "private_key_id": "0e00ce7ecf43733be53c0ffd97b105810da8f50a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfZUKauC/LCjaz\nlF2B1QFICBoI+0FTgeM/dREaODXIhA+ESx4TKYPyxjVo7l9KYC1wJemdqgLYQaVq\nW/Vf9ftO0yCMnWT7qVSBoiWWx9zklW1JW0w6W+uhhoA5wPUsyMuhVVykW46v5fH3\nAdlCqA40HisETugeFgmEPZfWT33T6cqUt1W7pYB1maihtvawNU22uoZHyHJ3op90\nQPRp+ak42hd8RMOwNM6hu5ZHuObrm/INOWkV1VZl+4qw3d0WQQRdsFfg/KeIyL67\nG0xfTnkaUZH2cNx7qFWTxmUlKjaCbqY1DJd++ckXRFM8bHOLkoq/lKNvcj2rPbHy\n9K3VoJS7AgMBAAECggEALXlNFCjh8bIbQwZb2vNy5yLwkolj7LgMpgj29Rz+MxOB\n/cMUdHEOpM9pY2NGKkjgDbOzP3jGUP4BfCN6EINzy9wt2A/7RFTduBITWT3xxgDf\naeMzDx80TSO7Jz7mc31hoshgor9AKOyYKFkNq5eYXcQRj6wXSqYM1v5feBO7mR4Q\n9WxpDPoe56P2Maw6UucV86X7ImVERGqci+U1X5AMipqb03eI0Eiwi56j/r6kjwu2\nXvlpOw2maQ5HvOmI4boBlKvBkTHQCXpD4gQgKjeIO+bIw3sPS/5+Wsr5Tk4gWMNw\nq0vghdHxHuGY6nswxWiyClMTkQTgDwNuiHxlDCeHwQKBgQDgn83GL5XK/+WnptMt\navwkNQuo6OIV2ArngjqWEr8DzwLsAIOO3NGnUqiMqiQb0wJK2p4l1lNcPC2YZqZm\nk0hDPudGK1IboD8lq0QEfIOq1Rmu0jz6Sc5T0X9X11wrKnUGqrdeRf7wI31WoYdN\nbKI0V4LxrE9hPlVGcM/BMk2AYQKBgQC1qPwl5OEWzLtGzP0ByhJOXoJXWQ/B6GGU\nqvPvc7rpZi7D/3sZarDtORiaD66SQEMnoh4PVdBNkMXX9R3uG6Ox+zV6ve5VJmFa\nISJFBQND+ZHOtZLMwJSK2nQD6ElDgohpWdQHJ6qx8jFgaz7QiZRnLdJUQg4oWWrb\nQ48VyeoamwKBgQCXAngZY8ZFahHfyuSv5PvL76l+DcpouwxhpYhzefjWu6YQOSw4\nsDV2UrijkIKj/hDNd/nYICV8naxdh60Yyq1LIA/leZxCnFG3plMc3QS7pXYVtJtv\n/IxshywgRtVc47c3GzAZfd8tW/6YbhGDOKQ3ohmTFa9sBbbYm2DgVkwKIQKBgCzS\nNvR6lnbzqLl9VmecngusEejPVq33UixGSc2o9lMkHSHK5WqOAn1lewZ4HBCFvowG\n2ffaqnyY3de86NeZBjihzL4uIqHryFVem4AADqA08Z7Y+hF+6qef4sQcCgeYK2Qi\n/8eMJ/ej1D7/9w2pBG64xY54hdm6xjy3XJR5r0NFAoGAOV6XgrG4gGlbXvrrlYt+\nM4XevmQAGdJVxfE+ikSIh7C9fxwUh6Read+rW30+b11U3NaKv3Mz3yilXFXYOfOW\nCgxDDamMOnUr+ZS+ku8Yd+3/o3pPIuQbMeQ2D1IW+qK/k9Zy5EYAV3acpkJMMsXo\nkRQLgAW0rjGGbCv8IOsEhZM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "omotimotti@omotimotti.iam.gserviceaccount.com",
+  "client_id": "115642194485316098088",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/omotimotti%40omotimotti.iam.gserviceaccount.com"
+}
