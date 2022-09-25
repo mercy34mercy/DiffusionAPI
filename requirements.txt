@@ -29,8 +29,8 @@ googleapis-common-protos==1.56.4
 gql==3.4.0
 graphql-core==3.2.1
 # grpcio==1.48.1
-grpcio-status==1.49.1
-grpcio-tools==1.48.1
+# grpcio-status==1.49.1
+# grpcio-tools==1.48.1
 httplib2==0.20.4
 idna==3.4
 isodate==0.6.1
