@@ -6,9 +6,15 @@ import os
 
 def firestorage(data):
     cred = credentials.Certificate('./omoti.json')
-    firebase_admin.initialize_app(cred, {
-        'storageBucket': os.environ["FIRE_STORAGE"]
-    })
+
+    try:
+        firebase_admin.initialize_app(cred, {
+            'storageBucket': os.environ["FIRE_STORAGE"]
+        })
+    except:
+        print("allredady")
+
+    
 
     hoge_id = str(uuid.uuid4())
 
